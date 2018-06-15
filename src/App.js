@@ -9,9 +9,7 @@ import Labels from './DataLabels.js';
 // import ThreeLinks from './threeLinks.js';
 // import Links from './Kiss.js';
 // import randAcct from './randAcct.js';
-import {TaskRow1} from './functions.js';
-import {TaskRow2} from './functions.js';
-import {TaskRow3} from './functions.js';
+import {TaskRow1, TaskRow2, TaskRow3, TaskRow4,TaskRow5, TaskRow6} from './functions.js';
 
 // watchApp
 class App extends Component {
@@ -52,10 +50,9 @@ class App extends Component {
 
           {/*  //////      taskRows */}
 
-          <div class="taskRow">
-            <span class="shareRow2">AccountLink</span>
-            <span class="shareRow3">ProductLink</span>
-          </div>
+          {TaskRow4()}
+          {TaskRow5()}
+          {TaskRow6()}
 
         </div> {/* end of taskHeader */}
 

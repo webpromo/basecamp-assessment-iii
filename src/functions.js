@@ -1,7 +1,6 @@
 
 import React, { Component } from 'react';
 
-  
   function Dialog(props) {
     return (
         <div class="taskRow">
@@ -37,6 +36,31 @@ import React, { Component } from 'react';
       user1="kal@reallycreepystories.com"
       link1="https://www.ebay.com/itm/282977648739"
       product1 = "282977648739"  />
+    );
+  }
+
+  export function TaskRow4() {
+    return (
+      <Dialog
+      user1="bober@GBAM.com"
+      link1="https://www.ebay.com/itm/282977665337"
+      product1 = "282977665337"  />
+    );
+  }
+  export function TaskRow5() {
+    return (
+      <Dialog
+      user1="jesse@BZ.org"
+      link1="https://www.ebay.com/itm/282625266671"
+      product1 = "282625266671"  />
+    );
+  }
+  export function TaskRow6() {
+    return (
+      <Dialog
+      user1="jfisher@B-F.com"
+      link1="https://www.ebay.com/itm/282623088986"
+      product1 = "282623088986"  />
     );
   }
 
