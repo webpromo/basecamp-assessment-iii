@@ -11,7 +11,6 @@ const products = [
     {num:"282627825565",description:"SBE20 black eyes"},
     {num:"283008837096",description:"Wedding guest book"},
     {num:"282625250413",description:"Designer Fur Deluxe"},
-    {num:"283004647222",description:"Dive Rings"} 
 ];
 export default products;
 

@@ -2,11 +2,16 @@
 
 
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-// import './App.css';
+import './App.css';
 import { getStatus } from './status.js'
 import Labels from './DataLabels.js';
-import GetData from './getData.js';
+// import GetData from './getData.js';
+// import ThreeLinks from './threeLinks.js';
+// import Links from './Kiss.js';
+// import randAcct from './randAcct.js';
+import {TaskRow1} from './functions.js';
+import {TaskRow2} from './functions.js';
+import {TaskRow3} from './functions.js';
 
 // watchApp
 class App extends Component {
@@ -28,13 +33,12 @@ class App extends Component {
 
           {Labels()}
 
-
           {/*  //////      taskRows */}
 
-          <div class="taskRow">
-            <span class="shareRow2"><div>|{GetData}|</div></span>
-            <span class="shareRow3">ProductLink</span>
-          </div>
+          {TaskRow1()}
+          {TaskRow2()}
+          {TaskRow3()}
+
         </div>
 
         {/*  Watch table */}

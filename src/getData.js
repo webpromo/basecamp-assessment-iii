@@ -10,6 +10,7 @@ import React, { Component } from 'react';
 class GetData extends Component {
  constructor() {
    super();
+   this.state = {products}
  }
 render() {
 
@@ -23,27 +24,29 @@ render() {
     var testAcct = "";
 
 // GET THREE RANDOM PRODUCTS TO UN-WATCH
-// for (i=1; i<10, i++){
+
+//for (var i = 0; i < 10; i++) {
+ 
     randProd = getRandomInt(numProds);
-    randAcct = getRandomInt(numAccts);
+    randAcct = getRandomInt(numAccts);  
+    testAcct = matrix[randAcct][randProd];  
     
-    testAcct = matrix[randAcct][randProd];
-
      // IF lastUpdate < today...
-        // THEN add it to unwatchUs array, ELSE get next random pair
+        // THEN add it to unwatchUs array, ELSE get next random pair testAcct < today2
    
-    if(testAcct < today2){
-        // alert(i);
-    };
+  //  if(1 == 1){
+ //  testAcct = "Hoser";
+   // watchArr.push(<ObjectRow key={i} />);        
+    // alert(i);
+ //   };
+//}
 return (
-    <div><a href="https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&ru=">{testAcct}</a>
-    </div>
+    <div className="getData">
+    {testAcct}</div>
     );
-
 
 }
 
-   
  
         // REPEAT ONLY IF THERE ARE NOT 3 ITEMS IN THE ARRAY
 //   };
