@@ -15,17 +15,3 @@ const products = [
 ];
 export default products;
 
-///  
-
-const products2 = [
-    ["283004647222","Dive Rings"],
-    ["283004675507","White pony beads"],
-    ["282977648739","Paper Mache R"],
-    ["282977665337","Needlework Organizer"],
-    ["282625266671","Paper Mache E"],
-    ["282623088986","Dot embossing folder"],
-    ["282627825565","SBE20 black eyes"],
-    ["283008837096","Wedding guest book"],
-    ["282625250413","Designer Fur Deluxe"],
-    ["283004647222","Dive Rings"] 
-];
