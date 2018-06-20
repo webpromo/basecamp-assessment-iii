@@ -5,10 +5,6 @@ import React, { Component } from 'react';
 import './App.css';
 import { getStatus } from './status.js'
 import Labels from './DataLabels.js';
-// import GetData from './getData.js';
-// import ThreeLinks from './threeLinks.js';
-// import Links from './Kiss.js';
-// import randAcct from './randAcct.js';
 import {TaskRow1, TaskRow2, TaskRow3, TaskRow4,TaskRow5, TaskRow6} from './functions.js';
 
 // watchApp
@@ -44,11 +40,9 @@ class App extends Component {
         <div class="taskHeader">
           <h3>Watchlist these products:</h3>
 
-
           {Labels()}
 
-
-          {/*  //////      taskRows */}
+          {/*  taskRows */}
 
           {TaskRow4()}
           {TaskRow5()}

@@ -19,11 +19,9 @@ h1 {font-size:18pt;text-align:center;}
 
 .taskHeader {
   padding-bottom:20px;
-  /* border:1px dashed red; */
   }
 
     H3 {font-size:14pt;}
-
 
     .dataLabels {
       font-size:8pt;
@@ -33,7 +31,7 @@ h1 {font-size:18pt;text-align:center;}
       }
 
     span {
-      width:45%;
+      width:48%;
       min-width:140px;
       float:left;     
       }
@@ -55,7 +53,7 @@ h1 {font-size:18pt;text-align:center;}
          }
 
       .shareRow3 {
-        text-align:right;
+        text-align:center;
         color:blue;
         text-decoration: underline;
         padding:2px 3px;
